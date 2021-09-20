@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<style>
+body{
+background-image: url('https://bi.im-g.pl/im/46/1c/18/z25281862V,Coraz-wiecej-osob--skuszonych-wysokimi-zarobkami--.jpg>');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+display: grid;
+grid-template-columns: minmax(0px 1fr) minmax(2fr 4fr) minmax(0px 1fr);
+grid-template-rows: minmax();
+}
+#title{
+
+}
+#description{
+
+}
+#survey-form{
+
+}
+#name{
+
+}
+#emial{
+
+}
+#number{
+
+}
+#name-label{
+
+}
+#email-label{
+
+}
+#number-label{
+
+}
+#dropdown{
+
+}
+#submin{
+
+}
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}
+
+</style>
+<html>
+    <body>            
+                <h1>freeCodeCamp Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the platform</p>
+                <div>
+                    <label for="name-lanbel">Name</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <p>Age(optional)</p>
+                    <input type="number" required>
+                </div>
+                <div>
+                    <label for="dropdown">Which option best describes your current role?</label>
+                    <select name="dropdown" id="dropdown" required>
+                        <option value="" hidden disabled selected>Select your option</option>
+                        <option>Student </option>
+                        <option>Full Time Job</option>
+                        <option>Ful Time Learner</option>
+                        <option>Prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+
+                </div>
+                
+    </body>    
+</html>        
